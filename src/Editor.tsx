@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-// Интерфейсы
+// интерфейсы
 interface Param {
   id: number;
   name: string;
@@ -33,7 +33,7 @@ interface State {
   editedColors: Color[] | null;
 }
 
-// CSS стили
+// стили внутри файла
 const EditorStyles = `
 .editor {
   font-family: Arial, sans-serif;
