@@ -121,7 +121,7 @@ class ParamEditor extends Component<Props, State> {
 
   render() {
     if (!this.state.editedParams || !this.state.editedColors) {
-      return null; // или замените на загрузку или другой компонент заглушку
+      return null;
     }
 
     return (
