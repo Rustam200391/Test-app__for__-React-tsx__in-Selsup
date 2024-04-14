@@ -29,7 +29,7 @@ export default {
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
-Task
+<p>Task</p>
 There are the following data structures describing the product – the Model interface and a set of parameters for this product. It is necessary to implement components on React that allow you to edit the Model structure – to put parameter values in this case, all parameters should be output and immediately available for editing, and the passed values in the structure are put down in the form of editing, which are passed to params: Param[], and also allow you to get the full structure in the getModel() method – containing all the entered parameter values. The solution should be easily extensible (for example, it should allow you to easily add new types of parameters – not only text, but for example numeric or with a list of values) Your implementation should work only with text parameters Input – type string.
 
 The solution must be designed as a single file with all the components and types that are used.
